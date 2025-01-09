@@ -1,0 +1,32 @@
+function in js
+function are first citizen in js
+in js, function are object
+
+Types of function in js
+
+->function declaration statments\ named function \pure function
+->function expression statements 
+->function programing
+high order function
+call back function
+-> arrow function
+-> nested function
+-> IIFE(immedate inwalking function expression)
+
+Function declaration statement
+------------------------------
+it is a set of instruction or block of code use to preform a spefic task
+syntax:-
+keyword   identifier  identifier
+    |        |           | 
+function fun-name(parameter,...)
+{
+// local scope
+set of instruction
+}
+fun-name(arguments,...)
+           |
+        data/value(datatype)
+
+return keyword
+->will stop exeution of the function and return the value of the function

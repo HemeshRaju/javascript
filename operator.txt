@@ -1,0 +1,125 @@
+operator
+---------
+1)arthimatic
+
+->increment
+post-increment (after)
+first value will be assigned
+then increments
+
+eg:
+let a=10;
+console.log(a) //10
+console.log(a++) //10
+console.log(a++) //11
+
+pre-increment (before)
+first increment will done
+then value will be assigned
+
+eg:
+let b=10;
+console.log(b)//10
+console.log(++b) 11
+
+->assignment
+=,+=,-=,*=,%=,/=
+
+eg:
+let c=10
+console.log(c) //10
+console.log(c +=10) //20
+
+3)relational operator
+--> <,>,<=,<=,==,===,!=
+console.log(10==10) //true
+console.log(10=='10') //true
+console.log(10==='10') //false
+console.log(10===10) //true
+
+4) logical operator
+-> AND(&&),OR(||),NOT(!=)
+
+5) ternary operator
+-> will accept three operands
+syntax:
+(condition) : true-statement : false-statement
+
+eg:-
+(5<10): console.log("hello"): console.log("bye")
+
+conditional ststements
+----------------------
+they are used to make some decision based on some condition
+
+if
+if - else
+if-else if-else
+nested if
+switch
+
+->if 
+if(5<10){
+console.log("hello")
+}
+
+->if - else
+will print true statement based on condition
+
+let n=5;
+if(n<=10){
+console.log("5 is smallest")
+}else{
+console.log("largest")
+}
+
+else-if-else / else-if-ladder
+
+let m=100;
+let n=200;
+let o=300;
+
+if(m >=n && n>=o)
+{
+console.log("m is gteatest")
+}else if (n>=m && n>=0){
+console.log("n is greatest")
+}else{
+console.log("o is greatest")
+}
+
+nested - if
+
+let user ="admin"
+let password= 12345
+if(user ==="admin"){
+    if (password === 12345){
+        console.log("login successfull)
+    }else{
+        console.log("login unsuccessfull
+}else{
+    console.log("login unsuccessfull)
+}
+
+switch-case
+let n=1
+swich(n)
+{
+case 1:{
+console.log(1)}
+break;
+case 2:{
+console.log(2)}
+break;
+default{
+console.log(invaild)}
+
+loop- statement
+---------------
+
+used to excucute set of instruction based on condition
+
+for-loop
+while-loop
+do-while-loop
+for-each
