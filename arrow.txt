@@ -1,0 +1,15 @@
+ES-6 version --- 2015
+used to reduce number of lines in a code
+two types of return keyword
+1.implict return arrow function
+2.explicit return arrow function
+
+1.implict return arrow function
+---> no need of return keyword
+let a=()=> console.log("hi")  // implict
+// => fat arrow
+2.explicit return arrow function
+---> need of return keyword
+let b=()=>{return "hi"}  // explicit
+console.log(b)
+console.log(b())
